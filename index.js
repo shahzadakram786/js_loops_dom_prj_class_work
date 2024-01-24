@@ -45,4 +45,12 @@ for (let i = 0; i < arr.length; i++) {
 
 doc.innerHTML += `
 <button id="clrbtn">Clear All</button>
-`
+`;
+// 
+let btnclear = document.getElementById("clrbtn");
+
+
+
+btnclear.addEventListener('click', () => {
+    doc.innerHTML +=
+})
