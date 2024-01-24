@@ -36,7 +36,7 @@ for (let i = 0; i < arr.length; i++) {
     <div id= "divjs"> 
     <img src=${arr[i].img} id="img">
     <div id="divjs2">
-    <h4 class= "text"> ${arr[i].name } </h4>
+    <h5 class= "text"> ${arr[i].name } </h5>
     <p class= "text">${arr[i].year}</p>
     </div>
     </div>
@@ -44,5 +44,5 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 doc.innerHTML += `
-<button id="clrbtn">clear</button>
+<button id="clrbtn">Clear All</button>
 `

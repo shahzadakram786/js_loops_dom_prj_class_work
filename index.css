@@ -1,57 +1,67 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .main {
-        width: 200vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #container {
-        margin-top: 20px;
-        width: 50%;
-        background-color: pink;
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-    }
-    
-    #divjs {
-        margin-top: 20px;
-        display: flex;
-        background-color: red;
-    }
-    
-    #clrbtn {}
-    
-    #divjs2 {
-        margin-left: 20px;
-        background-color: aqua;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 40%;
-    }
-    
-    #divjs2 p {
-        color: gray;
-        font-size: 12px;
-    }
-    
-    #img {
-        /* background-size: cove; */
-        margin-left: 20px;
-        width: 50px;
-        height: 9vh;
-        border-radius: 50%;
-        /* margin */
-    }
-    
-    .text {
-        /* padding-top: 10px; */
-        /* align-items: center; */
-    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main {
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(250, 232, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #container {
+            padding: 1.5em, 2em;
+            margin-top: 2em;
+            width: 30%;
+            background-color: white;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+        }
+        
+        #divjs {
+            width: 90%;
+            margin-left: 20px;
+            margin-top: 10px;
+            display: flex;
+            /* background-color: red; */
+        }
+        
+        #clrbtn {
+            color: wheat;
+            cursor: pointer;
+            padding: 2px 5px;
+            width: 90%;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(217, 70, 239);
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        
+        #divjs2 {
+            margin-left: 10px;
+            /* background-color: aqua; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 40%;
+        }
+        
+        #divjs2 p {
+            color: gray;
+            font-size: 10px;
+        }
+        
+        #img {
+            /* background-size: cove; */
+            /* margin-left: 20px; */
+            width: 50px;
+            height: 9vh;
+            border-radius: 50%;
+            /* margin */
+        }
