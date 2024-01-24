@@ -32,7 +32,17 @@ let arr = [{
 
 for (let i = 0; i < arr.length; i++) {
     // console.log(arr)
-    doc.innerHTML += ` <p class= "text"> ${ arr[i].name } </p>
+    doc.innerHTML += `
+    <div id= "divjs"> 
+    <img src=${arr[i].img} id="img">
+    <div id="divjs2">
+    <h4 class= "text"> ${arr[i].name } </h4>
     <p class= "text">${arr[i].year}</p>
-    <img src=${arr[i].img} id="img">`
+    </div>
+    </div>
+    `
 }
+
+doc.innerHTML += `
+<button id="clrbtn">clear</button>
+`
