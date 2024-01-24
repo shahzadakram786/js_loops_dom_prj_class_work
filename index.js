@@ -19,12 +19,12 @@ let arr = [{
     {
         img: "./person-4.jpeg",
         name: 'Sean Walsh',
-        year: "36 years"
+        year: "34 years"
     },
     {
         img: "./person-5.jpeg",
         name: 'Lola Gardner ',
-        year: "36 years"
+        year: "29 years"
     }
 
 ]
