@@ -41,8 +41,8 @@ doc.innerHTML = `<h3 id="h1">${arr.length} Birthdays Today</h3>`;
 // let h3 = document.getElementById("h3")
 
 for (let i = 0; i < arr.length; i++) {
-    doc2.style.display = "none"
-        // console.log(arr
+    // doc2.style.display = "none"
+    // console.log(arr
     doc.innerHTML += `
     
     <div id= "divjs"> 
@@ -65,7 +65,10 @@ btnclear.addEventListener('click', () => {
     // doc2.style.display =
     // doc.style.display = "none";
     // arr[i].splice(0, null);
-    arr.length = 0;
+
+    // arr.length = 0;
+    // or
+    arr = "";
     doc.innerHTML = `<h3 id="h1">${arr.length} Birthdays Today</h3>`;
     doc.style.height = "20vh";
 
@@ -80,6 +83,3 @@ btnclear.addEventListener('click', () => {
 
     // doc.style.display = ""
 })
-
-
-doc2.innerHTML = `<h3 id="h1">0 Birthdays Today</h3>`;
