@@ -16,7 +16,16 @@
             align-items: center;
         }
         
+        .containerjs3 {
+            background-color: white;
+            width: 35%;
+            height: 76vh;
+            border: 2px;
+        }
+        
         #container2 {
+            /* display: none; */
+            /* visibility: none; */
             padding: 1.5em, 2em;
             width: 35%;
             background-color: white;
