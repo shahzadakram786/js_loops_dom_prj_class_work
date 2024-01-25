@@ -1,5 +1,7 @@
 let doc = document.getElementById("container");
 let h = document.getElementById("h1")
+let doc2 = document.getElementById("container2");
+
 
 let arr = [{
         img: "./person-1.jpeg",
@@ -28,23 +30,34 @@ let arr = [{
     }
 
 ]
-
+doc.innerHTML += `
+<h3 id="h1">5 Birthdays Today</h3>`;
+let h3 = document.getElementById("h3")
 
 for (let i = 0; i < arr.length; i++) {
     // console.log(arr)
     doc.innerHTML += `
-    <div id= "divjs"> 
-    <img src=${arr[i].img} id="img">
-    <div id="divjs2">
-    <h5 class= "text"> ${arr[i].name } </h5>
-    <p class= "text">${arr[i].year}</p>
-    </div>
-    </div>
-    `
+
+<
+div id = "divjs" >
+    <
+    img src = $ { arr[i].img }
+id = "img" >
+    <
+    div id = "divjs2" >
+    <
+    h5 class = "text" > $ { arr[i].name } < /h5> <
+    p class = "text" > $ { arr[i].year } < /p> <
+    /div> <
+    /div>
+`
 }
 
-doc.innerHTML += `
-<button id="clrbtn">Clear All</button>
+doc.innerHTML += ` <
+h3 id = "h1" > 5 Birthdays Today < /h3>
+
+<
+button id = "clrbtn" > Clear All < /button>
 `;
 // 
 let btnclear = document.getElementById("clrbtn");
@@ -52,5 +65,19 @@ let btnclear = document.getElementById("clrbtn");
 
 
 btnclear.addEventListener('click', () => {
-    doc.innerHTML +=
+
+    doc.style.display = "none";
+    doc2.style.display = block
+    doc2.innerHTML += ` <
+div id = "container2" >
+    <
+    h3 id = "h1" > 5 Birthdays Today < /h3>
+
+<
+button id = "clrbtn2" > Clear All < /button> <
+    /div>
+
+`
+
+    // doc.style.display = ""
 })

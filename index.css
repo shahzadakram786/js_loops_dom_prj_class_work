@@ -16,6 +16,32 @@
             align-items: center;
         }
         
+        #container2 {
+            padding: 1.5em, 2em;
+            width: 35%;
+            background-color: white;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #clrbtn2 {
+            color: wheat;
+            cursor: pointer;
+            padding: 2px 5px;
+            width: 90%;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(217, 70, 239);
+            margin-top: 70px;
+            margin-left: 10px;
+            transition: 0.4s ease-in-out;
+        }
+        
+        #clrbtn2:hover {
+            background-color: #A21DAF;
+        }
+        
         #container {
             padding: 1.5em, 2em;
             width: 35%;
