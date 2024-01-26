@@ -82,4 +82,5 @@ btnclear.addEventListener('click', () => {
     // `
 
     // doc.style.display = ""
+
 })
