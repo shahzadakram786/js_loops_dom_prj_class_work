@@ -1,114 +1,131 @@
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            font-weight: 400;
-        }
-        
-        .main {
-            height: 100vh;
-            width: 100%;
-            background-color: rgb(250, 232, 255);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .containerjs3 {
-            background-color: white;
-            width: 35%;
-            height: 76vh;
-            border: 2px;
-        }
-        
-        #container2 {
-            /* display: none; */
-            /* visibility: none; */
-            padding: 1.5em, 2em;
-            width: 35%;
-            background-color: white;
-            height: 20vh;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        #clrbtn2 {
-            color: wheat;
-            cursor: pointer;
-            padding: 2px 5px;
-            width: 90%;
-            border: none;
-            border-radius: 5px;
-            background-color: rgb(217, 70, 239);
-            margin-top: 70px;
-            margin-left: 10px;
-            transition: 0.4s ease-in-out;
-        }
-        
-        #clrbtn2:hover {
-            background-color: #A21DAF;
-        }
-        
-        #container {
-            padding: 1.5em, 2em;
-            width: 35%;
-            background-color: white;
-            height: 74vh;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        #h1 {
-            margin-left: 20px;
-            margin-top: 10px;
-            font-weight: 400;
-            font-size: 1.4rem;
-        }
-        
-        #divjs {
-            width: 90%;
-            margin-left: 20px;
-            margin-top: 15px;
-            display: flex;
-        }
-        
-        #clrbtn {
-            color: wheat;
-            cursor: pointer;
-            padding: 2px 5px;
-            width: 90%;
-            border: none;
-            border-radius: 5px;
-            background-color: rgb(217, 70, 239);
-            margin-top: 20px;
-            margin-left: 20px;
-            transition: 0.4s ease-in-out;
-        }
-        
-        #clrbtn:hover {
-            background-color: #A21DAF;
-        }
-        
-        #divjs2 {
-            letter-spacing: 1px;
-            margin-left: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 40%;
-        }
-        
-        #divjs2 p {
-            color: gray;
-            font-size: 10px;
-            margin-top: 5px;
-            box-sizing: border-box;
-        }
-        
-        #img {
-            width: 45px;
-            height: 8vh;
-            border-radius: 50%;
-        }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-weight: 400;
+    }
+    
+    .main {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(250, 232, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .containerjs3 {
+        background-color: white;
+        width: 35%;
+        height: 76vh;
+        border: 2px;
+    }
+    
+    #container2 {
+        padding: 1.5em, 2em;
+        width: 35%;
+        background-color: white;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #clrbtn2 {
+        color: wheat;
+        cursor: pointer;
+        padding: 2px 5px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(217, 70, 239);
+        margin-top: 70px;
+        margin-left: 10px;
+        transition: 0.4s ease-in-out;
+    }
+    
+    #clrbtn2:hover {
+        background-color: #A21DAF;
+    }
+    
+    #container {
+        padding: 1.5em, 2em;
+        width: 35%;
+        background-color: white;
+        height: 74vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    
+    #h1 {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+    
+    #divjs {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 15px;
+        display: flex;
+    }
+    
+    #clrbtn {
+        color: wheat;
+        cursor: pointer;
+        padding: 2px 5px;
+        width: 90%;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(217, 70, 239);
+        margin-top: 20px;
+        margin-left: 20px;
+        position: relative;
+        transition: 0.4s ease-in-out;
+    }
+    
+    #clrbtn:hover {
+        background-color: #A21DAF;
+    }
+    
+    #divjs2 {
+        letter-spacing: 1px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+    }
+    
+    #divjs2 p {
+        color: gray;
+        font-size: 10px;
+        margin-top: 5px;
+        box-sizing: border-box;
+    }
+    
+    #img {
+        width: 45px;
+        height: 8vh;
+        border-radius: 50%;
+    }
+    
+    #icon {
+        /* height: 20vh; */
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        color: #A21DAF;
+        cursor: pointer;
+        border: none;
+    }
+    
+    #icon:hover {
+        text-shadow: 2px 2px 2px black;
+    }
