@@ -60,10 +60,13 @@
     }
     
     #h1 {
+        /* position: fixed; */
+        background-color: white;
         margin-left: 20px;
         margin-top: 10px;
         font-weight: 400;
         font-size: 1.4rem;
+        /* margin-bottom: 0px; */
     }
     
     #divjs {
