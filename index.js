@@ -75,7 +75,7 @@ let btnclear = document.getElementById("clrbtn");
 
 
 btnclear.addEventListener('click', () => {;
-    arr = "";
+    arr = [];
     doc.innerHTML = `<h3 id="h1">${arr.length} Birthdays Today</h3> <i id="icon" class = "fa-solid fa-arrows-rotate"> </i>`;
     doc.style.height = "20vh";
     doc.innerHTML += `<button id="clrbtn">Back</button>`;
